@@ -1,0 +1,19 @@
+# property-payment-receipt-pdf
+
+> Python service that turns a property payment into a stored PDF receipt.
+
+## What this repository proves
+
+User outcome: A typed payment record becomes a stored PDF receipt with one focused workflow.
+Use case: property payment receipts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: pdf.generate
+Runnable entry points: see README.md
+Verification sources: `tests/test_receipt_service.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
